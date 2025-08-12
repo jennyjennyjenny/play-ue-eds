@@ -26,6 +26,14 @@
     gap: 24px;
   }
 
+  .columns.align-top > div {
+    align-items: top;
+  }
+
+  .columns.align-bottom > div {
+    align-items: bottom;
+  }
+
   .columns > div > div {
     flex: 1;
     order: unset;
