@@ -20,6 +20,28 @@
     {
       "id": "columns",
       "fields": [
+         {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Alignment Style",
+          "description": "Set the vertical alignment of the columns content",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Center",
+              "value": ""
+            },
+            {
+              "name": "Top",
+              "value": "align-top"
+            },
+            {
+              "name": "Bottom",
+              "value": "align-bottom"
+            }
+          ]
+        },
         {
           "component": "text",
           "valueType": "number",
