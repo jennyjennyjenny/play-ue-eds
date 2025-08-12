@@ -26,16 +26,16 @@
     gap: 24px;
   }
 
-  .columns.align-top > div {
-    align-items: top;
-  }
-
-  .columns.align-bottom > div {
-    align-items: bottom;
-  }
-
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+
+  .columns.align-top > div {
+    align-items: flex-start;
+  }
+
+  .columns.align-bottom > div {
+    align-items: flex-end;
   }
 }
